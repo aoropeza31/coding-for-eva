@@ -1,0 +1,9 @@
+let artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
+
+artists.forEach(function(artist) {
+  console.log(artist + ' is one of my favorite artists.');
+});
+
+//or
+artists.forEach(artist => console.log(artist + 'is one of my favorite artists.'));
+
